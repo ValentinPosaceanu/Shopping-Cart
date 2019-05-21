@@ -93,7 +93,7 @@
 	.container{
 	background-color: white;
 	 width: 500px;
-  height: 300px;
+  height: 250px;
   margin: 40px;
 	}
 	
@@ -118,8 +118,7 @@
   padding-top: 30px;
   margin-right: 60px;
 }
-.delete-btn,
-.like-btn {
+.delete-btn {
   display: inline-block;
   Cursor: pointer;
 }
@@ -166,6 +165,7 @@ input:focus {
 
 
 
+
 	</style>
 	</head>
 	<body style="background-color:#ebebe0;">
@@ -176,14 +176,13 @@ input:focus {
 
 	 <h1>Check out page</font></h1> 
 
-	  <div class="container">
+	  
   
   <div class="buttons">
       <span class="delete-btn"></span>
       <span class="like-btn"></span>
     </div>
- 
- 
+	<div class="container">
 		<dt>name: Clean program</dt><dd>price: <font color="blue">$99.95</font></dd>
 			<dd>id: 123459</dd>
 			
@@ -202,14 +201,13 @@ input:focus {
 
 	<button class="button1" onclick="alert('Added')">Add to cart</button><form action="/action_page.php">
 	<button class="button2" onclick="alert('Removed')">Remove</button><form action="/action_page.php">
-		
-		
 		</div>
 		<br>
+		
 		<div class="container">
 		<dt>name: Delete program</dt><dd>price: <font color="blue">$55.95</font></dd>
 			<dd>id: 123458</dd>
-			<div class="popup" onclick="myFunction()">*description*
+			<div class="popup" onclick="myFunction()" >*description*
 	  <span class="popuptext" id="myPopup">Lorem Ipsum is simply<br> 
 			dummy text of the printing and typesetting<br>
 			industry. Lorem Ipsum is simply dummy text<br>
